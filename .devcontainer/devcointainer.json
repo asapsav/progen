@@ -1,0 +1,13 @@
+{
+    "name": "ProGen Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [80],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "remoteUser": "root",
+    "postCreateCommand": "echo 'Container is ready!'"
+}

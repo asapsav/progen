@@ -36,4 +36,4 @@ EXPOSE 80
 ENV NAME ProGen
 
 # Run the application when the container launches
-CMD ["poetry", "run", "python", "train.py"]
+CMD ["poetry", "run", "python", "sample_script.py"]

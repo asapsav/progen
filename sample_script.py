@@ -19,3 +19,5 @@ seq = random.randint(next(rng), (1024,), 0, 256)
 
 params = model.init(next(rng), seq)
 logits = model.apply(params, next(rng), seq) # (1024, 256)
+print('Hello! All dependencies are installed')
+print(model)

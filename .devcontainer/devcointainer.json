@@ -1,6 +1,6 @@
 {
-    "name": "ProGen Dev Container",
-    "dockerFile": "Dockerfile",
+    "name": "ProGen Dev Containerrr",
+    "dockerFile": "../Dockerfile",
     "forwardPorts": [80],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/sh"
